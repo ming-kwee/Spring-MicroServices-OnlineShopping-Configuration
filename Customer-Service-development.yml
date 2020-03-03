@@ -1,7 +1,7 @@
 server:
   port: 5051
-db:
-  name: d6d8b9v2k5sifa
+# db:
+#   name: d6d8b9v2k5sifa
 spring:
   # h2:
   #   console:
