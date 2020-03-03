@@ -1,2 +1,6 @@
 server:
-    port: 5056
+    port: 5057
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
