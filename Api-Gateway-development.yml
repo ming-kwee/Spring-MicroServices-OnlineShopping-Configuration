@@ -15,6 +15,12 @@ zuul:
       serviceId: ITEM-SERVICE
     salesApi:
       serviceId: SALESORDER-SERVICE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
 # Increase the Hystrix timeout to 60s (for all)
 hystrix:
   command:
