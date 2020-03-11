@@ -6,13 +6,6 @@ spring:
   # h2:
   #   console:
   #     enabled: true
-  main:
-    banner-mode: off
-
-  jpa:
-    hibernate:
-      ddl-auto: none
-
   datasource:
     platform: postgres
     initialization-mode: always
