@@ -7,7 +7,7 @@ spring:
   #   console:
   #     enabled: true
   datasource:
-    url: postgres://ekgaefbgjjwymv:c2aa7bf9f852e3c81c52d4bcb476b1d025d351cc75728698d531f2f9392fbc16@ec2-54-197-34-207.compute-1.amazonaws.com:5432/d6d8b9v2k5sifa
+    url: jdbc:postgresql://ekgaefbgjjwymv:c2aa7bf9f852e3c81c52d4bcb476b1d025d351cc75728698d531f2f9392fbc16@ec2-54-197-34-207.compute-1.amazonaws.com:5432/d6d8b9v2k5sifa
     username: ekgaefbgjjwymv
     password: c2aa7bf9f852e3c81c52d4bcb476b1d025d351cc75728698d531f2f9392fbc16
 
