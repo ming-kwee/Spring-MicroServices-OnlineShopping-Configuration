@@ -7,8 +7,10 @@ spring:
     username: wmoxr8visxetqjem
     password: yjbo3lg82pteyxhl
     driver-class-name: com.mysql.jdbc.Driver
-    
-    # spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect    
+  main:
+    allow-bean-definition-overriding: true    
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect    
 eureka:
   client:
     serviceUrl:
