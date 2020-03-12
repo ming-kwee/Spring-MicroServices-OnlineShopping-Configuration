@@ -4,13 +4,13 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://wmoxr8visxetqjem:yjbo3lg82pteyxhl@g4yltwdo6z0izlm6.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/zfxc45jl4urbkf0o
-    # username: wmoxr8visxetqjem
-    # password: yjbo3lg82pteyxhl
-    # driver-class-name: com.mysql.jdbc.Driver
-  # main:
-  #   allow-bean-definition-overriding: true    
-  # jpa:
-  #   database-platform: org.hibernate.dialect.MySQLDialect    
+    username: wmoxr8visxetqjem
+    password: yjbo3lg82pteyxhl
+    driver-class-name: com.mysql.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true    
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect    
 eureka:
   client:
     serviceUrl:
