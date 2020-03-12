@@ -6,10 +6,6 @@ server:
 #   database: heroku_1lvs8vf3
 #   host: ds137687.mlab.com
 #   port: 37687
-spring:
-  data:
-    mongodb:
-      uri: mongodb://heroku_bn01j0s7:labliblub123@ds149069.mlab.com:49069/heroku_bn01j0s7 
 
 # spring:
 #   data:
@@ -22,9 +18,12 @@ spring:
 #       host: ds137687.mlab.com
 
 spring:
-  h2:
-    console:
-      enabled: true
+  data:
+    mongodb:
+      uri: mongodb://heroku_bn01j0s7:labliblub123@ds149069.mlab.com:49069/heroku_bn01j0s7 
+  # h2:
+  #   console:
+  #     enabled: true
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
