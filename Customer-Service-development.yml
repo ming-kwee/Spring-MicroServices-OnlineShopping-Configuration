@@ -1,17 +1,17 @@
 server:
   port: 5051
 db:
-  name: d6d8b9v2k5sifa
+  name: zfxc45jl4urbkf0o
 spring:
   # h2:
   #   console:
   #     enabled: true
   datasource:
-    platform: postgres
-    initialization-mode: always
-    url: jdbc:postgresql://ekgaefbgjjwymv:c2aa7bf9f852e3c81c52d4bcb476b1d025d351cc75728698d531f2f9392fbc16@ec2-54-197-34-207.compute-1.amazonaws.com:5432/d6d8b9v2k5sifa
-    username: ekgaefbgjjwymv
-    password: c2aa7bf9f852e3c81c52d4bcb476b1d025d351cc75728698d531f2f9392fbc16
+    url: jdbc:mysql://wmoxr8visxetqjem:yjbo3lg82pteyxhl@g4yltwdo6z0izlm6.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/zfxc45jl4urbkf0o
+    username: wmoxr8visxetqjem
+    password: yjbo3lg82pteyxhl
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   client:
