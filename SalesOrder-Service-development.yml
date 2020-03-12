@@ -1,7 +1,26 @@
 server:
   port: 5053
-db:
-  name: salesorderdb
+# db:
+#   name: salesorderdb
+# mongo:
+#   database: heroku_1lvs8vf3
+#   host: ds137687.mlab.com
+#   port: 37687
+spring:
+  data:
+    mongodb:
+      uri: mongodb://heroku_bn01j0s7:labliblub123@ds149069.mlab.com:49069/heroku_bn01j0s7 
+
+# spring:
+#   data:
+#     mongodb:
+#       authentication-database: admin
+#       username: heroku_1lvs8vf3
+#       password: labliblub123
+#       database: heroku_1lvs8vf3
+#       port: 37687
+#       host: ds137687.mlab.com
+
 spring:
   h2:
     console:
